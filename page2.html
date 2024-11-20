@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I-Etat Civil</title>
+    <!-- Lien vers le CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        /* Personnalisation du fond de la page */
+        body {
+            background-color: #f4f7fa;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Personnalisation du header */
+        nav {
+            background-color: #2c3e50;
+        }
+
+        nav .navbar-brand, .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        nav .navbar-brand:hover, .navbar-nav .nav-link:hover {
+            color: #1abc9c !important;
+        }
+
+        /* Style pour le titre principal */
+        h2 {
+            color: #34495e;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        /* Encadrement et padding pour les sections */
+        .section-title {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .section-content {
+            padding: 20px;
+            background-color: white;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style des liens */
+        a {
+            color: #3498db;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Personnalisation de l'image de profil */
+        img {
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* Liste des diplômes */
+        ol {
+            padding-left: 20px;
+        }
+
+        ol li {
+            font-size: 1.1em;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .section-title {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="etat">I-Etat Civil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Photo de profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Diplômes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#desc">Description</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2 class="text-center" >I-Etat Civil</h2>
+        
+        <!-- Section d'informations personnelles -->
+        <div class="section-content" id="etat">
+            <p><strong>Nom:</strong> <a href="#des">HOUNFODJI</a></p>
+            <p><strong>Prénom:</strong> Eustache</p>
+            <p><strong>Contact:</strong> 58170297</p>
+            <p><strong>Filière:</strong> <a href="page3.html #rgl">RGL</a></p>
+        </div>
+
+        <!-- Photo de profil -->
+        <div class="section-content">
+            <h3 class="section-title">II-Ma photo de profil</h3>
+            <img src="eustache.jpg"  class="img-fluid" alt="photo de profil" width="200px">
+        </div>
+
+        <!-- Section des diplômes -->
+        <div class="section-content">
+            <h3 class="section-title">III-Mes diplômes</h3>
+            <ol>
+                <li>CEP</li>
+                <li>BEPC</li>
+                <li>BAC</li>
+            </ol>
+        </div>
+
+        <!-- Section de la description -->
+        <div class="section-content">
+            <h4 class="section-title" id="desc">IV-Ma description</h4>
+            <p>
+                Un ingénieur en développement web est un professionnel spécialisé dans la création et la maintenance
+                de sites web. Il maîtrise plusieurs langages de programmation tels que HTML, CSS, JavaScript, et souvent des
+                frameworks comme React ou Angular. Ses responsabilités incluent la conception de l’architecture des sites,
+                l’intégration de bases de données, et l’optimisation des performances. Il travaille en étroite
+                collaboration avec les designers pour assurer une expérience utilisateur fluide et attrayante. De plus, il
+                doit tester et déboguer les applications web pour garantir leur bon fonctionnement. La communication avec
+                les clients et les équipes internes est essentielle pour comprendre et répondre aux besoins spécifiques.
+                Enfin, il se tient à jour avec les dernières technologies et tendances du web pour proposer des solutions
+                innovantes.
+            </p>
+        </div>
+    </div>
+
+    <!-- Scripts nécessaires pour Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>

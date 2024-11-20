@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.naviga {
+    width: "30%"; /* Sidebar takes 40% of the width */
+    background-color: darkorange;
+    padding: 20px;
+    color: white;
+}
+
+.naviga ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.naviga ul li {
+    margin: 10px 0;
+}
+
+.naviga ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.naviga ul li a:hover {
+    background-color: #575757;
+}
+
+.content {
+    width: 70%; /* Content area takes 60% of the width */
+}
+
+.content iframe {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}

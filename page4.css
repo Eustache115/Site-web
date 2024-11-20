@@ -1,0 +1,70 @@
+.pas_de_retrait {
+    list-style-position: inside;
+}
+
+.retrait {
+    list-style-position:
+        outside;
+}
+
+.commence_a_zero {
+    list-style-type: decimal-leading-zero;
+    /*faire une liste non ordonnee avec un style de 01  02 ....0N devant chaque liste comme numerotation*/
+}
+
+.lettres_minuscules {
+    list-style-type: lower-alpha;
+}
+
+.chiffres_romains {
+    list-style-type: upper-roman;
+}
+
+.lettres_grecques {
+    list-style-type: lower-greek;
+}
+
+/* Listes à puces non ordonnées */
+.cercle {
+    list-style-type: circle;
+    /*faire une liste non ordonnee avec un style d'un petit cercle avec du vide a l' interieur*/
+}
+
+.carre {
+    list-style-type: square;
+    /*faire une liste non ordonnee avec un style d'un carre */
+}
+
+.rien {
+    list-style-type: none;
+}
+
+/*faire une liste non ordonnee simple sans decoration*/
+h2 {
+    text-indent: 10px;
+    /*indente la premiere ligne d'element*/
+    font-family: Arial, Verdana, "Times New Roman", serif;
+}
+
+em {
+    background-color: yellow;
+}
+
+strong {
+    color: red;
+}
+
+.image1 {
+    list-style-image: url("couple.jpg");
+}
+
+td,
+th {
+    border: 1px solid black;
+
+}
+
+table {
+    border-collapse: collapse;
+    /*permet de coller les bordures du tableau*/
+}

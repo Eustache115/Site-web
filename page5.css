@@ -1,0 +1,43 @@
+.admis{
+    background-color: greenyellow;
+}
+.redouble{
+    background-color: crimson;
+}
+.enjambement{
+    background-color: gold;
+}
+.table2{
+    height: 200px;
+    width: 400px;
+
+}
+#contact{
+    color: dodgerblue;
+}
+#premier{
+    border-style: dashed;
+}
+
+
+
+
+
+
+
+
+#rgl{
+    background-color: darkgreen;
+}
+#rms{
+    background-color:darkgreen ;
+}
+td,th{
+    border:1px solid black;
+   
+}
+table{
+    border-collapse: collapse;/*permet de coller les bordures du tableau*/
+    height: 200px;
+    width: 300px;
+}
